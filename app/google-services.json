@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2111093607",
+    "project_id": "cushbuddy-android-app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2111093607:android:a2c958c52a7ab767",
+        "android_client_info": {
+          "package_name": "com.example.ibaou.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2111093607-qsp3dlktqprir287sg4ehipls47dee27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ibaou.myapplication",
+            "certificate_hash": "b91c0cd855f9e0a17e6f60c0d89de82a3ca48881"
+          }
+        },
+        {
+          "client_id": "2111093607-rjccjs07ee9vup3gadequhd8chl7f98k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4awJqgK0nC4S7F76tAAxAx9O6CdOT-lA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
