@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:drawable="@color/colorPrimaryDark"/>
+    <item>
+        <shape>
+            <gradient
+                android:angle="315"
+                android:endColor="#276b9a"
+                android:centerColor="#35a5bb"
+                android:startColor="#5dc5b4"
+                android:type="linear"/>
+        </shape>
+
+    </item>
 
     <item>
         <bitmap
