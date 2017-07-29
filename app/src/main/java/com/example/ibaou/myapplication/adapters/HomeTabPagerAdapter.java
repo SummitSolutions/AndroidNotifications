@@ -8,7 +8,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.ibaou.myapplication.fragments.CashBuddiesTabFragment;
 import com.example.ibaou.myapplication.fragments.CashOffersTabFragment;
 import com.example.ibaou.myapplication.fragments.CashRequestsTabFragment;
 
