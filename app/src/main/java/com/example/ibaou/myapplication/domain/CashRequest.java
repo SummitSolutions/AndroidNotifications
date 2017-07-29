@@ -22,6 +22,7 @@ public class CashRequest implements Serializable {
     private Person requester;
     private Location location;
 
+
     public CashRequest() {
     }
 
@@ -96,4 +97,5 @@ public class CashRequest implements Serializable {
     public void setLocation(Location location) {
         this.location = location;
     }
+
 }

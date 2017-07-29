@@ -24,13 +24,13 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
-            <include layout="@layout/fragment_main_avatar_small"/>
+            <include layout="@layout/main_avatar_small"/>
 
-            <include layout="@layout/fragment_main_profile_info"
+            <include layout="@layout/main_profile_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <include layout="@layout/fragment_home_tab"
+            <include layout="@layout/home_tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 

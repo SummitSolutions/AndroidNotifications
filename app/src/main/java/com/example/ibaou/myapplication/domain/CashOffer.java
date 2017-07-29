@@ -23,16 +23,19 @@ public class CashOffer implements Serializable {
     private Person offerrer;
     private Location location;
 
+    private Double distance;
+
     public CashOffer() {
     }
 
-    public CashOffer(Double bonusAmount, String bonusType, String bonusProgram, CashRequest cashRequest, Person offerrer, Location location) {
+    public CashOffer(Double bonusAmount, String bonusType, String bonusProgram, CashRequest cashRequest, Person offerrer, Location location, Double distance) {
         this.bonusAmount = bonusAmount;
         this.bonusType = bonusType;
         this.bonusProgram = bonusProgram;
         this.cashRequest = cashRequest;
         this.offerrer = offerrer;
         this.location = location;
+        this.distance = distance;
     }
 
     public String getUuid() {
@@ -106,4 +109,13 @@ public class CashOffer implements Serializable {
     public void setLocation(Location location) {
         this.location = location;
     }
+
+    public Double getDistance() {
+        return distance;
+    }
+
+    public void setDistance(Double distance) {
+        this.distance = distance;
+    }
+
 }

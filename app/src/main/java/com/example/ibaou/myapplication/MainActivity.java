@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("MY REQUEST"));
-        tabLayout.addTab(tabLayout.newTab().setText("CASHBUDDIES"));
+        tabLayout.addTab(tabLayout.newTab().setText("OFFERS"));
+        tabLayout.addTab(tabLayout.newTab().setText("REQUESTS"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);

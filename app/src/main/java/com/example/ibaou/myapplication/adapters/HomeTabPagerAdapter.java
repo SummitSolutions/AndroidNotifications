@@ -9,7 +9,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.example.ibaou.myapplication.fragments.CashBuddiesTabFragment;
-import com.example.ibaou.myapplication.fragments.MyRequestTabFragment;
+import com.example.ibaou.myapplication.fragments.CashOffersTabFragment;
+import com.example.ibaou.myapplication.fragments.CashRequestsTabFragment;
 
 public class HomeTabPagerAdapter extends FragmentStatePagerAdapter {
 
@@ -25,10 +26,10 @@ public class HomeTabPagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position) {
             case 0:
-                MyRequestTabFragment tab1 = new MyRequestTabFragment();
+                CashOffersTabFragment tab1 = new CashOffersTabFragment();
                 return tab1;
             case 1:
-                CashBuddiesTabFragment tab2 = new CashBuddiesTabFragment();
+                CashRequestsTabFragment tab2 = new CashRequestsTabFragment();
                 return tab2;
             default:
                 return null;
