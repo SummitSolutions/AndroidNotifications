@@ -47,23 +47,29 @@ public class CashOffersTabFragment extends Fragment {
         List<CashOffer> offersList = new ArrayList<>();
 
         Location l1 = new Location(100L, 200L);
-        Person p1 = new Person("1", "I.Baourdos", "Ioannis", "Baourdos", Integer.valueOf(4).shortValue(), "GR", "Athens");
-        CashRequest cr1 = new CashRequest("1", 50.0, p1, l1);
+        Person p1 = new Person("1", "Ioannis.B", "Ioannis", "Baourdos", 4.0, "GR", "Athens", "giannis");
+        CashRequest cr1 = new CashRequest("1", 50.0,"EUR", p1, l1);
 
         Location lo1 = new Location(100L, 200L);
-        Person po1 = new Person("1", "N.Labrou", "Nikos", "Labrou", Integer.valueOf(4).shortValue(), "GR", "Athens");
-        CashOffer co1 = new CashOffer(2.00, "bonus", "epistrofh", cr1, po1, lo1, 500.00);
+        Person po1 = new Person("2", "Christos.K", "Christos", "Kontogiorgas", 3.5, "GR", "Athens", "christos");
+        CashOffer co1 = new CashOffer(2.00, "cash", "EUR", cr1, po1, lo1, 500.00);
 
         Location lo2 = new Location(100L, 200L);
-        Person po2 = new Person("1", "N.Labrou", "Nikos", "Labrou", Integer.valueOf(5).shortValue(), "GR", "Athens");
-        CashOffer co2 = new CashOffer(3.00, "bonus", "epistrofh", cr1, po1, lo1, 800.00);
+        Person po2 = new Person("3", "Nikos.L", "Nikos", "Labrou", 5.0, "GR", "Athens", "hugh");
+        CashOffer co2 = new CashOffer(3.00, "cash", "EUR", cr1, po2, lo2, 800.00);
 
         Location lo3 = new Location(100L, 200L);
-        Person po3 = new Person("1", "M.Anastasiou", "Maria", "Anastasiou", Integer.valueOf(5).shortValue(), "GR", "Maroussi");
-        CashOffer co3 = new CashOffer(2.00, "cash", "", cr1, po1, lo1, 1200.00);
+        Person po3 = new Person("4", "Maria.A", "Maria", "Anastasiou", 5.0, "GR", "Maroussi", "maria");
+        CashOffer co3 = new CashOffer(2.00, "cash", "EUR", cr1, po3, lo3, 1200.00);
 
+        Location lo4 = new Location(100L, 200L);
+        Person po4 = new Person("5", "Jenny.K", "Jenny", "Karezi", 3.9, "GR", "Kifissia", "jenny");
+        CashOffer co4 = new CashOffer(3.00, "cash", "EUR", cr1, po4, lo4, 1500.00);
 
         offersList.add(co1);
+        offersList.add(co2);
+        offersList.add(co3);
+        offersList.add(co4);
 
         return offersList;
     }

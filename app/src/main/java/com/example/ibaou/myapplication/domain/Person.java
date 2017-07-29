@@ -15,8 +15,9 @@ public class Person implements Serializable{
     private String nickname;
     private String firstName;
     private String lastName;
+    private String avatar;
 
-    private Short rating;
+    private Double rating;
 
     private String country;
     private String city;
@@ -24,8 +25,8 @@ public class Person implements Serializable{
     public Person() {
     }
 
-    public Person(String uuid, String nickname, String firstName, String lastName, Short rating,
-                  String country, String city) {
+    public Person(String uuid, String nickname, String firstName, String lastName, Double rating,
+                  String country, String city, String avatar) {
         super();
         this.uuid = uuid;
         this.nickname = nickname;
@@ -34,6 +35,7 @@ public class Person implements Serializable{
         this.rating = rating;
         this.country = country;
         this.city = city;
+        this.avatar = avatar;
     }
 
     public String getUuid() {
@@ -68,11 +70,11 @@ public class Person implements Serializable{
         this.lastName = lastName;
     }
 
-    public Short getRating() {
+    public Double getRating() {
         return rating;
     }
 
-    public void setRating(Short rating) {
+    public void setRating(Double rating) {
         this.rating = rating;
     }
 
@@ -90,5 +92,13 @@ public class Person implements Serializable{
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
     }
 }

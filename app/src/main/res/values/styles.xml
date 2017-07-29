@@ -73,4 +73,37 @@
         <item name="android:textColor">#ffffff</item>
     </style>
 
+
+
+
+    <style name="ListRowName">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#273b7a</item>
+    </style>
+
+    <style name="ListRowOffer">
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#273b7a</item>
+    </style>
+
+    <style name="ListRowDistance">
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#273b7a</item>
+    </style>
+
+    <style name="ListRowName.clicked" parent="ListRowName">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ListRowOffer.clicked" parent="ListRowOffer">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ListRowDistance.clicked" parent="ListRowDistance">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
 </resources>

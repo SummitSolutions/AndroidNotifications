@@ -45,14 +45,15 @@ public class CashRequestsTabFragment extends Fragment {
         List<CashRequest> requestsList = new ArrayList<>();
 
         Location l1 = new Location(100L, 200L);
-        Person p1 = new Person("1", "I.Baourdos", "Ioannis", "Baourdos", Integer.valueOf(4).shortValue(), "GR", "Athens");
-        CashRequest cr1 = new CashRequest("1", 50.0, p1, l1);
+        Person p1 = new Person("1", "I.Baourdos", "Ioannis", "Baourdos", 5.0, "GR", "Athens", "giannis");
+        CashRequest cr1 = new CashRequest("1", 50.0,"EUR", p1, l1);
 
         Location l2 = new Location(101L, 201L);
-        Person p2 = new Person("1", "C.Kontogiorgas", "Cristos", "Contogiorgas", Integer.valueOf(4).shortValue(), "GR", "Athens");
-        CashRequest cr2 = new CashRequest("2", 60.0, p2, l2);
+        Person p2 = new Person("1", "C.Kontogiorgas", "Cristos", "Contogiorgas", 5.3, "GR", "Athens", "christos");
+        CashRequest cr2 = new CashRequest("2", 60.0,"EUR", p2, l2);
 
         requestsList.add(cr1);
+        requestsList.add(cr2);
 
         return requestsList;
     }

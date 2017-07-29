@@ -13,6 +13,7 @@ public class CashRequest implements Serializable {
 
     private String uuid;
     private Double amount;
+    private String currency;
     private String requestStatus;
     private String compensationStatus;
 
@@ -26,10 +27,11 @@ public class CashRequest implements Serializable {
     public CashRequest() {
     }
 
-    public CashRequest(String uuid, Double amount, Person requester, Location location) {
+    public CashRequest(String uuid, Double amount, String currency, Person requester, Location location) {
         super();
         this.uuid = uuid;
         this.amount = amount;
+        this.currency = currency;
         this.requester = requester;
         this.location = location;
     }
@@ -98,4 +100,11 @@ public class CashRequest implements Serializable {
         this.location = location;
     }
 
+    public String getCurrency() {
+        return currency;
+    }
+
+    public void setCurrency(String currency) {
+        this.currency = currency;
+    }
 }
