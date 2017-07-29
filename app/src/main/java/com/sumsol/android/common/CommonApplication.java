@@ -1,9 +1,8 @@
 package com.sumsol.android.common;
 
 import android.app.Application;
-import android.content.Context;
 
-import com.sumsol.android.common.com.sumsol.android.common.util.PreferencesUtil;
+import com.sumsol.android.common.common.util.PreferencesUtil;
 import com.sumsol.android.common.domain.Preferences;
 
 public class CommonApplication extends Application {

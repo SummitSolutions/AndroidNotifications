@@ -19,13 +19,10 @@ import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
-import com.sumsol.android.common.com.sumsol.android.common.service.RegistrationIntentService;
+import com.sumsol.android.common.common.service.RegistrationIntentService;
 
-import org.apache.usergrid.java.client.Usergrid;
-import org.apache.usergrid.java.client.auth.UsergridAppAuth;
-
-import static com.sumsol.android.common.com.sumsol.android.common.service.RegistrationIntentService.REGISTRATION_COMPLETE;
-import static com.sumsol.android.common.com.sumsol.android.common.service.RegistrationIntentService.SENT_TOKEN_TO_SERVER;
+import static com.sumsol.android.common.common.service.RegistrationIntentService.REGISTRATION_COMPLETE;
+import static com.sumsol.android.common.common.service.RegistrationIntentService.SENT_TOKEN_TO_SERVER;
 
 public class PushMainActivity extends AppCompatActivity {
 

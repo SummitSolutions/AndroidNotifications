@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/hugh"
+            app:civ_border_width="0dp" />
+
+        <de.morrox.fontinator.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AvatarName"
+            app:font="UniNeueRegular.otf"
+            android:text="Xiang Yuen-Li"/>
+
+        <de.morrox.fontinator.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AvatarCountry"
+            app:font="UniNeueRegular.otf"
+            android:text="Hong Kong, HK" />
+
+
+</LinearLayout>

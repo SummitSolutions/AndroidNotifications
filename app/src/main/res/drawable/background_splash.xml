@@ -14,9 +14,10 @@
     </item>
 
     <item>
+
         <bitmap
             android:gravity="center"
-            android:src="@mipmap/ic_launcher"/>
+            android:src="@drawable/cash_buddy_logo"/>
     </item>
 
 </layer-list>
